@@ -1,0 +1,7 @@
+<!-- <p-chart type="bar" [data]="data"></p-chart> -->
+<div class="page-content">
+  <app-weighting-insert class="insert" (weightingAdded)="onWeightingAdded()"></app-weighting-insert>
+  <app-eating-insert class="insert" (eatingAdded)="onEatingAdded()"></app-eating-insert>
+  <app-weightings-chart #wChart></app-weightings-chart>
+  <app-eatings-chart #eChart></app-eatings-chart>
+</div>

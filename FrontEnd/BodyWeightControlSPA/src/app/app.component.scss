@@ -1,0 +1,17 @@
+.page-content{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    app-weighting-insert{
+        grid-column-start: 1;
+    }
+    app-eating-insert{
+        grid-column-start: 2;
+    }
+}
+
+.insert{
+    width: 80%;
+}

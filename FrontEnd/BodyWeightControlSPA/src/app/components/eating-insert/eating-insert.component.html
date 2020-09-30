@@ -1,0 +1,13 @@
+<div class="container">
+    <p>CALORIES</p>
+    <div class="p-fluid p-grid p-formgrid">
+        <div class="p-field p-col-12 p-md-4">
+            <label for="EDate">DAY:</label>
+            <p-calendar inputStyleClass="my-field" inputId="EDate" [(ngModel)]="date"></p-calendar>
+            <label for="calories">DAILY AMOUNT OF CALORIES:</label>
+            <p-inputNumber [(ngModel)]="calories"></p-inputNumber>
+
+        </div>
+    </div>
+    <button (click)="onButtonClicked()" [disabled]="buttonDisabled()"  pButton pRipple type="button" label="Submit" class="p-button-raised"></button>
+</div>

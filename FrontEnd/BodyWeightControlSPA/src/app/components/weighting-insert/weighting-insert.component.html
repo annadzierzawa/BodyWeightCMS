@@ -1,0 +1,13 @@
+<div class="container">
+<p>WEIGHT</p>
+    <div class="p-fluid p-grid p-formgrid">
+        <div class="p-field p-col-12 p-md-4">
+            <label for="WDate">DAY:</label>
+            <p-calendar inputStyleClass="my-field" inputId="WDate" [(ngModel)]="date"></p-calendar>
+            <label for="weight">DAILY WEIGHT:</label>
+            <p-inputNumber [(ngModel)]="weight"></p-inputNumber>
+            
+        </div>
+    </div>
+    <button (click)="onButtonClicked()" [disabled]="buttonDisabled()" label="Submit" pButton pRipple type="button" class="p-button-raised"></button>
+</div>
