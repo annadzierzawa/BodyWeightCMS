@@ -15,3 +15,10 @@
 .insert{
     width: 80%;
 }
+
+app-notes{
+  grid-column-start: 1;
+  margin-top: 100px;
+  grid-column-end: 3;
+  height: 500px;
+}

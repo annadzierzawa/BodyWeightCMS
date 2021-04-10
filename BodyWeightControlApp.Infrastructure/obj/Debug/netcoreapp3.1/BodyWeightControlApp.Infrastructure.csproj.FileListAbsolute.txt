@@ -9,3 +9,4 @@ D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1
 D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.dll
 D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.pdb
 D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.csprojAssemblyReference.cache
+D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.csproj.CoreCompileInputs.cache

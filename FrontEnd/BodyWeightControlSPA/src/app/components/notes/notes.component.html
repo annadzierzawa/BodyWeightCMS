@@ -1,0 +1,4 @@
+<app-note-insert (noteAdded)="onNotesChanged()"></app-note-insert>
+
+<!-- <div *ngFor="let note of notes$ |async" [innerHtml]="note.articleContent"></div> -->
+<app-note-item *ngFor="let note of notes$ |async" [note]="note" (articleDeleted)="onNotesChanged()"></app-note-item>

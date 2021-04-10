@@ -6,3 +6,4 @@ D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWei
 D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.AssemblyInfo.cs
 D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.dll
 D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.pdb
+D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.csproj.CoreCompileInputs.cache

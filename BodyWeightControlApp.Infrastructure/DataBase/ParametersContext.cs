@@ -9,6 +9,7 @@ namespace BodyWeightControlApp.Infrastructure.DataBase
         { }
         public DbSet<Weighting> Weightings { get; set; }
         public DbSet<Eating> Eatings { get; set; }
+        public DbSet<Article> Articles { get; set; }
     }
 
 }

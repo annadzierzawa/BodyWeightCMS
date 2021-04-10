@@ -1,0 +1,5 @@
+<angular-editor [config]="editorConfig" [formControl]="editorData"></angular-editor>
+<div class="buttons-container">
+  <button (click)="clearClicked()" label="Clear" pButton pRipple type="button" class="p-button-raised"></button>
+  <button (click)="submitClicked()" label="Submit" [disabled]="editorData.invalid" pButton pRipple type="button" class="p-button-success"></button>
+</div>

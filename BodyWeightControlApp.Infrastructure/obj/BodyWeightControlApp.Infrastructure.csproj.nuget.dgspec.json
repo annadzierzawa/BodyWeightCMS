@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\BodyWeightControlApp.Infrastructure.csproj": {}
+    "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\BodyWeightControlApp.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj": {
+    "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj",
+        "projectUniqueName": "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj",
         "projectName": "BodyWeightControlApp.Domain",
-        "projectPath": "D:\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj",
+        "projectPath": "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\obj\\",
+        "outputPath": "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,18 +54,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\BodyWeightControlApp.Infrastructure.csproj": {
+    "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\BodyWeightControlApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\BodyWeightControlApp.Infrastructure.csproj",
+        "projectUniqueName": "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\BodyWeightControlApp.Infrastructure.csproj",
         "projectName": "BodyWeightControlApp.Infrastructure",
-        "projectPath": "D:\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\BodyWeightControlApp.Infrastructure.csproj",
+        "projectPath": "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\BodyWeightControlApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\obj\\",
+        "outputPath": "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -78,9 +80,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj": {
-                "projectPath": "D:\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj"
+              "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj": {
+                "projectPath": "D:\\CMS-projekt\\Apka- waga i kcal\\BodyWeightControlApp.Domain\\BodyWeightControlApp.Domain.csproj"
               }
             }
           }
@@ -93,8 +96,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
             },
@@ -118,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
