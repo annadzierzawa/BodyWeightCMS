@@ -1,6 +1,6 @@
-import { DatePipe } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
-import { WeightingsService } from 'src/app/services/weightings.service';
+import { DatePipe } from "@angular/common";
+import { Component, OnInit } from "@angular/core";
+import { WeightingDTO, WeightingsService } from "src/app/services/weightings.service";
 
 @Component({
   selector: 'app-weightings-chart',
@@ -9,31 +9,39 @@ import { WeightingsService } from 'src/app/services/weightings.service';
 })
 export class WeightingsChartComponent implements OnInit {
   data: any;
-  
-  constructor(private _weightingService:WeightingsService,public datepipe: DatePipe) { }
+  weightings: WeightingDTO[];
+  isInEditMode = false;
+
+  constructor(private _weightingService: WeightingsService, public datepipe: DatePipe) { }
 
   ngOnInit(): void {
     this.loadData();
   }
 
-  loadData()
-  {
-    this._weightingService.getWeightings().subscribe(res=>{
-      console.log(res)
-      let labels = res.map(x=>this.datepipe.transform(new Date(x.date),'yyyy-MM-dd'));
-      let dataset = res.map(x=>x.weight)
+  loadData() {
+    this._weightingService.getWeightings().subscribe(res => {
+      this.weightings = res;
+      let labels = res.map(x => this.datepipe.transform(new Date(x.date), 'yyyy-MM-dd'));
+      let dataset = res.map(x => x.weight)
       this.data = {
-        labels:labels,
-        datasets:[
+        labels: labels,
+        datasets: [
           {
             label: 'Weights',
-            data:dataset,
+            data: dataset,
             fill: false,
             borderColor: '#4bc0c0'
           }
         ]
       }
     });
+  }
+
+  deleteClicked(id: number) {
+    this._weightingService.deleteWeighting(id).subscribe(res => {
+      this.isInEditMode = false;
+      this.loadData();
+    })
   }
 
 }

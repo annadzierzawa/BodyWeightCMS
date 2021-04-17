@@ -7,13 +7,18 @@ import { Observable } from "rxjs";
 })
 export class NotesService {
 
+
   constructor(private readonly http: HttpClient) { }
 
-  addNote(model:AddNoteCommand):Observable<any>{
-    return this.http.post<any>("https://localhost:5001/articles",model);
+  addNote(model: AddNoteCommand): Observable<any> {
+    return this.http.post<any>("https://localhost:5001/articles", model);
   }
 
-  getNotes():Observable<NoteDTO[]>{
+  updateNote(note: NoteDTO) {
+    return this.http.put<any>("https://localhost:5001/articles", note);
+  }
+
+  getNotes(): Observable<NoteDTO[]> {
     return this.http.get<NoteDTO[]>("https://localhost:5001/articles");
   }
 
@@ -22,11 +27,11 @@ export class NotesService {
   }
 }
 
-export interface AddNoteCommand{
-  content:string;
+export interface AddNoteCommand {
+  content: string;
 }
 
-export interface NoteDTO{
-  id:number;
-  articleContent:string;
+export interface NoteDTO {
+  id: number;
+  articleContent: string;
 }

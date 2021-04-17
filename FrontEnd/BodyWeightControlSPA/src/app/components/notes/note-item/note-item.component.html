@@ -1,6 +1,36 @@
 <div class="note-item">
   <div class="container">
-    <div [innerHTML]="note.articleContent"></div>
+    <angular-editor *ngIf="isInEditMode"
+                    [config]="editorConfig"
+                    [formControl]="editorData"></angular-editor>
+    <div *ngIf="!isInEditMode"
+         [innerHTML]="editorData.value"></div>
   </div>
-  <button (click)="deleteClicked()" label="Delete" pButton pRipple type="button" class="p-button-danger"></button>
+  <button (click)="deleteClicked()"
+          label="Delete"
+          pButton
+          pRipple
+          type="button"
+          class="p-button-danger"></button>
+  <button *ngIf="!isInEditMode"
+          (click)="editClicked()"
+          label="Edit"
+          pButton
+          pRipple
+          type="button"
+          class="p-button-danger"></button>
+  <button *ngIf="isInEditMode"
+          (click)="cancelEditingClicked()"
+          label="Cancel"
+          pButton
+          pRipple
+          type="button"
+          class="p-button-danger"></button>
+  <button *ngIf="isInEditMode"
+          (click)="saveClicked()"
+          label="Save"
+          pButton
+          pRipple
+          type="button"
+          class="p-button-danger"></button>
 </div>

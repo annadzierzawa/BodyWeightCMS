@@ -1,4 +1,23 @@
-.container{
+.container {
+  height: 250px;
+  width: 80%;
+
+  .records-container {
     height: 250px;
-    width: 80%;
+    overflow-y: auto;
+
+    .record {
+      display: flex;
+      line-height: 30px;
+      margin: 10px;
+      background: #d5d5d5;
+      padding: 5px;
+      border-radius: 5px;
+      justify-content: space-around;
+
+      div {
+        width: 150px;
+      }
+    }
+  }
 }

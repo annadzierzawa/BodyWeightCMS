@@ -1,3 +1,32 @@
 <div class="container">
-    <p-chart *ngIf="data!=null" type="line" [data]="data"></p-chart>
+  <p-chart *ngIf="!isInEditMode && data!=null"
+           type="line"
+           [data]="data"></p-chart>
+  <div *ngIf="isInEditMode"
+       class="records-container">
+    <div *ngFor="let record of weightings"
+         class="record">
+      <div>{{record.date | date:"yyyy-MM-dd"}} calories: {{record.caloriesSum}}</div>
+      <button (click)="deleteClicked(record.id)"
+              label="Delete"
+              pButton
+              pRipple
+              type="button"
+              class="p-button-danger"></button>
+    </div>
+  </div>
+  <button *ngIf="!isInEditMode"
+          (click)="isInEditMode=true"
+          label="Manage Records"
+          pButton
+          pRipple
+          type="button"
+          class="p-button-danger"></button>
+  <button *ngIf="isInEditMode"
+          (click)="isInEditMode=false"
+          label="Cancel"
+          pButton
+          pRipple
+          type="button"
+          class="p-button-danger"></button>
 </div>

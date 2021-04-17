@@ -1,6 +1,6 @@
-import { DatePipe } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
-import { EatingsService } from 'src/app/services/eatings.service';
+import { DatePipe } from "@angular/common";
+import { Component, OnInit } from "@angular/core";
+import { EatingDTO, EatingsService } from "src/app/services/eatings.service";
 
 @Component({
   selector: 'app-eatings-chart',
@@ -10,26 +10,27 @@ import { EatingsService } from 'src/app/services/eatings.service';
 export class EatingsChartComponent implements OnInit {
 
   data: any;
-  
-  constructor(private _eatingService:EatingsService,public datepipe: DatePipe) { }
+  eatings: EatingDTO[];
+  isInEditMode = false;
+
+  constructor(private _eatingService: EatingsService, public datepipe: DatePipe) { }
 
   ngOnInit(): void {
     this.loadData();
   }
 
-  loadData()
-  {
-    this._eatingService.getWeightings().subscribe(res=>{
-      console.log(res)
-      let labels = res.map(x=>this.datepipe.transform(new Date(x.date),'yyyy-MM-dd'));
-      let dataset = res.map(x=>x.caloriesSum)
+  loadData() {
+    this._eatingService.getWeightings().subscribe(res => {
+      this.eatings = res;
+      let labels = res.map(x => this.datepipe.transform(new Date(x.date), 'yyyy-MM-dd'));
+      let dataset = res.map(x => x.caloriesSum)
       this.data = {
-        labels:labels,
-        datasets:[
+        labels: labels,
+        datasets: [
           {
             label: 'Calories',
-            data:dataset,
-            fill:false,
+            data: dataset,
+            fill: false,
             backgroundColor: '#42A5F5',
             borderColor: '#1E88E5',
           }
@@ -38,5 +39,10 @@ export class EatingsChartComponent implements OnInit {
     });
   }
 
-
+  deleteClicked(id: number) {
+    this._eatingService.deleteEating(id).subscribe(res => {
+      this.isInEditMode = false;
+      this.loadData();
+    })
+  }
 }
