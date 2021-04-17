@@ -8,8 +8,8 @@ namespace BodyWeightControlApp.Application.Services
     public interface IArticlesService
     {
         Task AddArticle(AddArticleCommand command);
-
         Task<IEnumerable<Article>> GetArticles();
         Task DeleteArticle(long id);
+        Task UpdateArticle(UpdateArticleCommand command);
     }
 }

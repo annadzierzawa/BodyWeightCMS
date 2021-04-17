@@ -39,7 +39,15 @@ namespace BodyWeightControlApp.Application.Services
                 _context.Eatings.Add(newEating);
             }
             await _context.SaveChangesAsync();
+        }
 
+        public async Task DeleteEating(int id)
+        {
+            var eating = await _context.Eatings.FindAsync(id);
+
+            _context.Eatings.Remove(eating);
+
+            await _context.SaveChangesAsync();
         }
     }
 }

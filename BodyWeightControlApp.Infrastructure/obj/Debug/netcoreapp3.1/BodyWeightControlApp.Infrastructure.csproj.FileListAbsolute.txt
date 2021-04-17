@@ -10,3 +10,15 @@ D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1
 D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.pdb
 D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.csprojAssemblyReference.cache
 D:\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\bin\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.deps.json
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\bin\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.dll
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\bin\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.pdb
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\bin\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.dll
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\bin\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.pdb
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.csprojAssemblyReference.cache
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.AssemblyInfoInputs.cache
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.AssemblyInfo.cs
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.csproj.CopyComplete
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.dll
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Infrastructure\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Infrastructure.pdb

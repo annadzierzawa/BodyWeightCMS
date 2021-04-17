@@ -7,3 +7,12 @@ D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWei
 D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.dll
 D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.pdb
 D:\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.csproj.CoreCompileInputs.cache
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\bin\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.deps.json
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\bin\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.dll
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\bin\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.pdb
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.csprojAssemblyReference.cache
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.AssemblyInfoInputs.cache
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.AssemblyInfo.cs
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.csproj.CoreCompileInputs.cache
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.dll
+D:\CMS-projekt\Apka- waga i kcal\BodyWeightControlApp.Domain\obj\Debug\netcoreapp3.1\BodyWeightControlApp.Domain.pdb

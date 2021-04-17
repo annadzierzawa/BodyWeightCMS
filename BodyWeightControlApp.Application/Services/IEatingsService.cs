@@ -11,5 +11,6 @@ namespace BodyWeightControlApp.Application.Services
     {
         Task<IEnumerable<Eating>> GetEatings();
         Task AddEating(AddEatingCommand command);
+        Task DeleteEating(int id);
     }
 }

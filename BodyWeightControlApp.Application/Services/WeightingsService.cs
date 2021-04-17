@@ -43,5 +43,14 @@ namespace BodyWeightControlApp.Application.Services
 
             await _context.SaveChangesAsync();
         }
+
+        public async Task DeleteWeighting(int id)
+        {
+            var weighting = await _context.Weightings.FindAsync(id);
+
+            _context.Weightings.Remove(weighting);
+
+            await _context.SaveChangesAsync();
+        }
     }
 }

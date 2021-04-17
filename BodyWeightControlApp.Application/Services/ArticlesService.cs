@@ -29,6 +29,15 @@ namespace BodyWeightControlApp.Application.Services
             await _context.SaveChangesAsync();
         }
 
+        public async Task UpdateArticle(UpdateArticleCommand command)
+        {
+            var article = await _context.Articles.FindAsync(command.Id);
+
+            article.ArticleContent = command.ArticleContent;
+
+            await _context.SaveChangesAsync();
+        }
+
         public async Task DeleteArticle(long id)
         {
             var article = await _context.Articles.FindAsync(id);

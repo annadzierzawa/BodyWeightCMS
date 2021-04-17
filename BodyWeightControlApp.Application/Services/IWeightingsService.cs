@@ -11,9 +11,6 @@ namespace BodyWeightControlApp.Application.Services
     {
         Task<IEnumerable<Weighting>> GetWeightings();
         Task AddWeighting(AddWeightingCommand command);
-
-
+        Task DeleteWeighting(int id);
     }
-
-
 }
